@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bardan KC </title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <!-- Fixed Navbar -->
+  <nav class="nav" id="top-nav">
+    <div class="nav-inner">
+      <div class="brand">BK</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-title">
+          Hi, I'm <span class="hero-name">Bardan KC</span>
+        </h1>
+        <p class="hero-sub">Data Scientist &amp; Machine Learning Engineer</p>
+        <p class="hero-desc">
+          Transforming data into actionable insights with Python, Machine Learning,
+          and cutting-edge AI technologies.
+        </p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">View My Work</a>
+          <a class="btn btn-outline" href="#contact">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-avatar">
+        <img src="images/FORM.jpg" alt="Bardan KC" class="hero-avatar">
+        <a href="assets/BARDANCV.pdf" download class="download-cv-btn">Download CV</a>
+      </div>
+    </div>
+    
+    <a href="#about" class="down-arrow" aria-label="Scroll to about">
+      <span class="arrow">⌄</span>
+    </a>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">About <span class="accent">Me</span></h2>
+    <div class="about-card reveal">
+      <p>
+        I'm a passionate Data Scientist and Machine Learning Engineer with expertise in
+        transforming complex datasets into meaningful insights. I specialize in building
+        scalable ML models, performing advanced data analysis, and creating data-driven
+        solutions that drive business growth and innovation.
+      </p>
+      <p>
+        With a strong foundation in Python, I work with scikit-learn,
+        SQL, and modern visualization tools. I'm constantly learning and exploring new
+        areas like medical AI, time-series, and NLP.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills &amp; <span class="accent">Expertise</span></h2>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <h3>Programming Languages</h3>
+        <div class="tags"><span>Python</span><span>SQL</span><span>JavaScript</span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Machine Learning</h3>
+        <div class="tags"><span>Supervised</span><span>Unsupervised</span><span>scikit-learn</span><span>XGBoost</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Data Analysis &amp; Viz</h3>
+        <div class="tags"><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Deep Learning</h3>
+        <div class="tags"><span>CNN</span><span>LSTM</span><span>Transformers</span><span>Autoencoders</span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools &amp; Tech</h3>
+        <div class="tags"><span>Jupyter</span><span>Git</span><span>Github</span><span>VS code</span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Specializations</h3>
+        <div class="tags"><span>NLP</span><span>Computer Vision</span><span>Stat Modeling</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Selected <span class="accent">Projects</span></h2>
+
+    <div class="projects-large reveal">
+      <!-- Card 1 -->
+      <article class="project-large">
+        <div class="project-image">
+          <img src="images/bg1.jpg" alt="Diabetes Prediction">
+        </div>
+        <div class="project-body">
+          <h3>Diabetes Prediction System</h3>
+          <p>XGBoost model with feature engineering and explainability to predict diabetes from
+            patient data.</p>
+          <a class="project-cta" href="https://github.com/BARDAN7/DiabetesPredictionSystem" target="_blank"
+            rel="noopener">View Project</a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="project-large">
+        <div class="project-image">
+          <img src="images/taxi.jpg" alt="Taxi Fare Estimator">
+        </div>
+        <div class="project-body">
+          <h3>Taxi Fare Estimator</h3>
+          <p>Feature-engineered regression pipeline with model explainability and production-ready deployment plan.</p>
+          <a class="project-cta" href="https://github.com/BARDAN7/taxi_fare_estimator" target="_blank"
+            rel="noopener">View Project</a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="project-large">
+        <div class="project-image">
+          <img src="images/bone.jpg" alt="Bone Fracture Detection">
+        </div>
+        <div class="project-body">
+          <h3>Bone Fracture Detection</h3>
+          <p>Convolutional neural network trained on medical X-rays to detect bone fractures with high precision and
+            recall.</p>
+          <a class="project-cta" href="https://github.com/BARDAN7/fractured_checking" target="_blank"
+            rel="noopener">View Project</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+
+    <div class="contact-wrap reveal">
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <input type="text" name="name" id="name" placeholder="Your name" required>
+          <input type="email" name="email" id="email" placeholder="Your email" required>
+        </div>
+        <textarea name="message" id="message" rows="5" placeholder="Your message" required></textarea>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <button type="button" id="clear-btn" class="btn btn-outline">Clear</button>
+        </div>
+
+        <p id="form-msg" class="form-msg" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-info">
+        <h4>Or reach me at</h4>
+        <p><strong>Email:</strong> kcbardan0@gmail.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bardan-kc-73265a259/"
+            target="_blank">linkedin.com/in/BARDAN</a></p>
+        <p><strong>Github:</strong><a href="https://github.com/BARDAN7" target="_blank"> BARDAN7</a></p>
+        <p><strong>Phone:</strong> 9803172007</p>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div>© 2025 Bardan KC • Data Science</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
